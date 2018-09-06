@@ -22,7 +22,7 @@ const argv = yargs
 .command('read','Read a note',{
   title:titleOptions
 })
-.command('list','lists all nodes')
+.command('list','lists all notes')
 .command('remove','Removes a note',{
   title:titleOptions
 })
